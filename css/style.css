@@ -1,0 +1,269 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    background-color: rgba(0,0,0,0.6)
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+form{
+  width: 196px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 12px;
+  padding: 7px;
+}
+button{
+  width: 157px;
+  background-color:#066782;
+  border-radius: 7px;
+  margin: 10px 18px;
+  padding: 10px;
+  color: white;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+input{
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+input[name="bonusCode"]{
+  background-color: grey;
+}
+input[type="checkbox"]{
+  float: left;
+}
+
+.wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+}
+.content{
+  background-image:url(../images/1.jpg);
+  background-repeat: no-repeat;
+  min-height: 600px;
+}
+.header{
+  border-bottom: 1px solid white;
+  min-height: 37px;
+}
+.logo{
+    width: 192px;
+    float: left;
+    padding-top: 2px;
+}
+.login_sidebar{
+  float: right;
+
+}
+.flag{
+  float: left;
+  width: 36px;
+  padding-right: 3px;
+}
+.gb_commission{
+  color: white;
+  font-size: 11px;
+  float: left;
+  padding-top: 7px;
+  width: 107px;
+
+}
+.secure{
+  float: left;
+  color: white;
+  font-size: 11px;
+  padding-top: 5px;
+}
+.lock{
+  width: 26px;
+  float: left;
+}
+.data_secure{
+  float: left;
+  color: white;
+  font-size: 11px;
+  min-width: 98px;
+}
+.data_secure p{
+  padding: 5px;
+}
+.data_lock{
+  float: left;
+}
+.login{
+  float: left;
+  color: black;
+  font-size: 13px;
+  background-color: #F39529;
+  width: 73px;
+
+  padding-top: 5px;
+  font-weight: 700;
+}
+.login p{
+  padding-top: 5px;
+}
+.login_img{
+  float: left;
+  width: 32px;
+  padding-right: 2px;
+}
+.form_holder{
+  width: 50%;
+  padding-top: 3%;
+}
+.login a{
+  color: black;
+}
+.checkbox{
+  font-size: 12px;
+}
+.sign_up{
+  color: #066782;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 7px;
+}
+.error_form{
+  font-size: 11px;
+  color: red;
+}
+.terms_conditions{
+  color: blue;
+}
+.terms_conditions:hover{
+  text-decoration: underline;
+}
+.clear{
+  clear: both;
+}
+.other_games{
+  margin: 0 auto;
+  margin-top: 8%;
+  max-width: 907px;
+  text-align: center;
+}
+.footer{
+  text-align: center;
+}
+.info_form{
+  font-size: 13px;
+  color: #066782;
+  padding-left: 7px;
+  line-height: 13px;
+}
+.mobile_header{
+  display: none;
+}
+.congrats{
+  text-shadow: 2px 2px #066782;
+  color: white;
+  text-align: center;
+  padding-top: 1.5%;
+}
+.button_holder{
+  padding: 44px;
+  text-align: center;
+}
+.button2{
+  width: 157px;
+  background-color:#066782;
+  border-radius: 7px;
+  margin: 10px 18px;
+  padding: 10px;
+  color: white;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.step4{
+  min-height: 298px;
+}
+#unlocked{
+  display: none;
+}
+#checkbox{
+  float: right;
+  margin-top: 21px;
+}
+.bonusCheck{
+  float: left;
+  width: 154px;
+  color: #066782;
+  padding-left: 7px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.step3_games{
+  margin-top: 1%;
+}
+@media only screen and (max-width: 600px) {
+  .form_holder {
+    width: 100%;
+  }
+  .gb_commission {
+    font-size: 9px;
+    width: 73px;
+  }
+  .flag{
+    width: 26px;
+  }
+  .secure{
+    font-size: 9px;
+  }
+  .lock{
+    width: 22px;
+  }
+  .data_secure{
+    font-size: 9px;
+    min-width: 78px;
+  }
+  .data_lock{
+    width: 38px;
+    padding-top: 3px;
+  }
+  .login{
+    width: 58px;
+    font-size: 11px;
+  }
+  .login_img{
+    width: 24px;
+  }
+  .logo{
+    width: 156px;
+  }
+  .header{
+    min-height: 29px;
+  }
+}
+
+@media only screen and (max-width: 453px) {
+  .none{
+    display: none;
+  }
+  .login{
+    width: 29px;
+  }
+  .mobile_header{
+    display: block;
+    margin: 0 auto;
+    max-width: 283px;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .gb_commission_m{
+    float: left;
+  }
+  .secure_m{
+    float: left;
+  }
+  .data_secure_m{
+    float: left;
+    width: 92px;
+  }
+}
